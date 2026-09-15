@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Keluarga Natan - Ayah (Tugas Informatika Kelas XII)</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-lg shadow-md shadow-indigo-200">
+                    N
+                </div>
+                <div>
+                    <span class="font-bold text-slate-900 block leading-tight">Keluarga Natan (Bapak Jimmy Antonio)</span>
+                    <span class="text-xs text-indigo-600 font-medium">Portofolio Informatika XII</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#profil" class="hover:text-indigo-600 transition">Profil</a>
+                <a href="#pekerjaan" class="hover:text-indigo-600 transition">Pekerjaan</a>
+                <a href="#keahlian" class="hover:text-indigo-600 transition">Keahlian & Hobi</a>
+                <a href="#git-workflow" class="hover:text-indigo-600 transition">Panduan Git</a>
+                <a href="#dokumentasi" class="hover:text-indigo-600 transition">Dokumentasi</a>
+            </nav>
+            <div>
+                <a href="#kontak" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-xl text-sm font-medium shadow-sm transition">Hubungi</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative overflow-hidden bg-gradient-to-b from-indigo-50/50 to-white py-20 lg:py-32">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <span class="inline-flex items-center space-x-2 bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <span>Portofolio Keluarga Natan - Ayah Teladan</span>
+                    </span>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight">
+                        Inspirasi & Teladan <span class="text-indigo-600">Keluarga Natan</span>
+                    </h1>
+                    <p class="text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0">
+                        Selamat datang di website portofolio tugas Informatika Kelas XII Keluarga Natan. Halaman ini didedikasikan untuk Ayah tercinta, Bapak Jimmy Antonio.
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#profil" class="inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-medium px-6 py-3 rounded-xl shadow-lg shadow-indigo-200 transition">
+                            Lihat Profil Lengkap <i class="fa-solid fa-arrow-down ml-2"></i>
+                        </a>
+                        <a href="#git-workflow" class="inline-flex items-center justify-center bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 font-medium px-6 py-3 rounded-xl transition">
+                            Pelajari Git & GitHub <i class="fa-brands fa-github ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-72 h-80 sm:w-80 sm:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-indigo-100">
+                        <img src="WhatsApp Image 2026-09-08 at 15.08.43.jpeg" alt="Foto Ayah Jimmy Antonio" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-900/80 to-transparent p-6 text-white">
+                            <h3 class="text-xl font-bold">Jimmy Antonio, S.E.</h3>
+                            <p class="text-xs text-indigo-200">Pegawai Swasta (Audit) & Family Man</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="profil" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Profil Singkat</h2>
+                <p class="text-slate-600 mt-2">Mengenal lebih dekat latar belakang, pendidikan, dan perjalanan karir Ayah Jimmy Antonio.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:shadow-lg transition">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center text-xl mb-6 font-bold">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Pendidikan</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Menyelesaikan studi S1 Teknik Mesin di universitas ITN Malang.
+                    </p>
+                </div>
+                <div id="pekerjaan" class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:shadow-lg transition scroll-mt-28">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center text-xl mb-6 font-bold">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Pekerjaan Utama</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Bekerja sebagai pegawai swasta bagian Audit kerja di PT. Sinamas Jakarta Utara Tamrin, berpengalaman luas dalam pemeriksaan keuangan dan kepatuhan operasional perusahaan.
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:shadow-lg transition">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center text-xl mb-6 font-bold">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Filosofi Hidup</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Memiliki integritas dalam bekerja, mau belajar hal-hal baru, dan sangat tulus sepenuh hati dalam hal apapun itu yang berkaitan dengan keluarganya. Jadi, kunci kesuksesan dan sumber semangat adalah keluarganya yang senantiasa menunggu di rumah dengan penuh cinta kasih.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="keahlian" class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
+                        <i class="fa-solid fa-screwdriver-wrench text-indigo-600 mr-3"></i> Keahlian & Kompetensi
+                    </h2>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1 text-sm font-medium">
+                                <span>Teknik Permesinan & Desain</span>
+                                <span class="text-indigo-600">98%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 h-2.5 rounded-full overflow-hidden">
+                                <div class="bg-indigo-600 h-2.5 rounded-full" style="width: 98%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1 text-sm font-medium">
+                                <span>Technical Drawing (Gambar Teknik)</span>
+                                <span class="text-indigo-600">95%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 h-2.5 rounded-full overflow-hidden">
+                                <div class="bg-indigo-600 h-2.5 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1 text-sm font-medium">
+                                <span>Manufaktur & Alat Guna Pabrik</span>
+                                <span class="text-indigo-600">94%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 h-2.5 rounded-full overflow-hidden">
+                                <div class="bg-indigo-600 h-2.5 rounded-full" style="width: 94%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1 text-sm font-medium">
+                                <span>Audit & Analisis Operasional</span>
+                                <span class="text-indigo-600">90%</span>
+                            </div>
+                            <div class="w-full bg-slate-200 h-2.5 rounded-full overflow-hidden">
+                                <div class="bg-indigo-600 h-2.5 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
+                        <i class="fa-solid fa-bicycle text-indigo-600 mr-3"></i> Hobi & Aktivitas Luar Ruang
+                    </h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex items-center space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-lg">
+                                <i class="fa-solid fa-pen-ruler"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800">Menggambar</h4>
+                                <p class="text-xs text-slate-500">Sketsa & desain teknik</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex items-center space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-lg">
+                                <i class="fa-solid fa-motorcycle"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800">Build Motor dari Nol</h4>
+                                <p class="text-xs text-slate-500">Merakit & restorasi total</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex items-center space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-lg">
+                                <i class="fa-solid fa-car-side"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800">Modifikasi</h4>
+                                <p class="text-xs text-slate-500">Motor & mobil kesayangan</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex items-center space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-lg">
+                                <i class="fa-solid fa-hand-fist"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800">Karate</h4>
+                                <p class="text-xs text-slate-500">Bela diri & kebugaran</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm flex items-center space-x-4 sm:col-span-2">
+                            <div class="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-lg">
+                                <i class="fa-solid fa-person-swimming"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-800">Renang</h4>
+                                <p class="text-xs text-slate-500">Olahraga air rutin akhir pekan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="git-workflow" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-indigo-600 font-semibold text-xs tracking-wider uppercase bg-indigo-50 px-3 py-1 rounded-full">Praktik Wajib Tugas XII</span>
+                <h2 class="text-3xl font-bold text-slate-900 mt-2">Panduan Git, GitHub & GitHub Pages</h2>
+                <p class="text-slate-600 mt-2">Dokumentasi langkah demi langkah sesuai ketentuan tugas informatika.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+                    <span class="text-xs font-bold text-indigo-600 bg-indigo-100 px-2.5 py-1 rounded-lg">Langkah 1</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-4 mb-2">VS Code & Struktur Folder</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Membuat folder project terpisah untuk aset (gambar, css, js) dan file HTML utama (index.html, dll) lalu membukanya di Visual Studio Code.
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+                    <span class="text-xs font-bold text-indigo-600 bg-indigo-100 px-2.5 py-1 rounded-lg">Langkah 2</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-4 mb-2">Git Add & Commit</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Membuka terminal di VS Code, jalankan perintah <code class="bg-slate-200 px-1.5 py-0.5 rounded text-xs">git add .</code> lalu <code class="bg-slate-200 px-1.5 py-0.5 rounded text-xs">git commit -m "inisialisasi portofolio ayah"</code>.
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+                    <span class="text-xs font-bold text-indigo-600 bg-indigo-100 px-2.5 py-1 rounded-lg">Langkah 3</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-4 mb-2">Git Push ke GitHub</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Menghubungkan repository lokal ke GitHub via remote origin dan melakukan <code class="bg-slate-200 px-1.5 py-0.5 rounded text-xs">git push -u origin main</code> (Push = Komputer ke GitHub).
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+                    <span class="text-xs font-bold text-indigo-600 bg-indigo-100 px-2.5 py-1 rounded-lg">Langkah 4</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-4 mb-2">Aktivasi GitHub Pages</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Masuk ke menu Settings repository di GitHub, pilih tab Pages, lalu ubah Source ke main branch untuk mempublikasikan website secara online.
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+                    <span class="text-xs font-bold text-indigo-600 bg-indigo-100 px-2.5 py-1 rounded-lg">Langkah 5</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-4 mb-2">Edit, Commit & Push Ulang</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Melakukan perubahan kecil pada kode di VS Code, lalu ulangi proses <code class="bg-slate-200 px-1.5 py-0.5 rounded text-xs">git add .</code>, commit, dan push untuk memperbarui live website.
+                    </p>
+                </div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+                    <span class="text-xs font-bold text-indigo-600 bg-indigo-100 px-2.5 py-1 rounded-lg">Langkah 6</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-4 mb-2">Konsep Push vs Pull</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        <strong>Push:</strong> Mengirim file dari Komputer ke GitHub.<br>
+                        <strong>Pull:</strong> Mengambil pembaharuan file dari GitHub ke Komputer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dokumentasi" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white p-8 sm:p-12 rounded-3xl shadow-sm border border-slate-200">
+                <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
+                    <i class="fa-solid fa-book text-indigo-600 mr-3"></i> Checklist Catatan Buku & Pengumpulan
+                </h2>
+                <div class="space-y-4 text-slate-700 text-sm">
+                    <label class="flex items-start space-x-3 cursor-pointer">
+                        <input type="checkbox" checked disabled class="mt-1 w-4 h-4 text-indigo-600 rounded">
+                        <span>Menulis ide, tujuan website, dan struktur folder di buku catatan Informatika.</span>
+                    </label>
+                    <label class="flex items-start space-x-3 cursor-pointer">
+                        <input type="checkbox" checked disabled class="mt-1 w-4 h-4 text-indigo-600 rounded">
+                        <span>Mendokumentasikan langkah pembuatan repository GitHub dan GitHub Pages.</span>
+                    </label>
+                    <label class="flex items-start space-x-3 cursor-pointer">
+                        <input type="checkbox" checked disabled class="mt-1 w-4 h-4 text-indigo-600 rounded">
+                        <span>Menyertakan catatan kendala (misal: authentikasi token Git) dan cara mengatasinya.</span>
+                    </label>
+                    <label class="flex items-start space-x-3 cursor-pointer">
+                        <input type="checkbox" checked disabled class="mt-1 w-4 h-4 text-indigo-600 rounded">
+                        <span>Menyimpan screenshot proses coding dan terminal dalam folder digital pendukung.</span>
+                    </label>
+                </div>
+                <div class="mt-8 pt-6 border-t border-slate-100 flex flex-col sm:flex-row justify-between items-center gap-4">
+                    <div class="text-xs text-slate-500">
+                        Status Tugas: <span class="font-semibold text-emerald-600">Selesai & Siap Dikumpulkan</span>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="https://github.com" target="_blank" class="bg-slate-900 hover:bg-slate-800 text-white px-4 py-2 rounded-xl text-xs font-medium transition flex items-center">
+                            <i class="fa-brands fa-github mr-2"></i> Buka GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontak" class="bg-slate-900 text-slate-400 py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div>
+                <span class="text-white font-bold text-lg block">Portofolio Keluarga Natan (Bapak Jimmy Antonio) - Tugas Informatika XII</span>
+                <p class="text-xs text-slate-400 mt-1">Dibuat dengan HTML, CSS Tailwind, dan Visual Studio Code.</p>
+            </div>
+            <div class="text-xs text-slate-400 text-center sm:text-right">
+                &copy; 2026 Keluarga Natan | Siswa Kelas XII. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
